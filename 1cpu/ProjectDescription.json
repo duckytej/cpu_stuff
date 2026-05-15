@@ -1,0 +1,252 @@
+{
+  "ProjectName": "1cpu",
+  "DLSVersion_LastSaved": "2.1.6",
+  "DLSVersion_EarliestCompatible": "2.0.0",
+  "CreationTime": "2026-03-24T21:19:55.255+05:30",
+  "LastSaveTime": "2026-05-15T13:35:24.825+05:30",
+  "Prefs_MainPinNamesDisplayMode": 0,
+  "Prefs_ChipPinNamesDisplayMode": 2,
+  "Prefs_GridDisplayMode": 0,
+  "Prefs_Snapping": 0,
+  "Prefs_StraightWires": 0,
+  "Prefs_SimPaused": false,
+  "Prefs_SimTargetStepsPerSecond": 1000,
+  "Prefs_SimStepsPerClockTick": 250,
+  "AllCustomChipNames":[
+    "not",
+    "and",
+    "or",
+    "xor",
+    "half adder",
+    "full_adder",
+    "4bit_adder",
+    "SR_latch",
+    "D_latch",
+    "JK_flip",
+    "4_bitreg",
+    "1B_clk_Reg",
+    "4_bitClkreg",
+    "alu",
+    "4bit_tristate",
+    "comp jk",
+    "4binPC",
+    "16decodePC",
+    "4bit_and",
+    "Demux",
+    "7seg",
+    "8add",
+    "8xor",
+    "8and",
+    "8not",
+    "8or",
+    "8alu",
+    "8tri",
+    "8reg",
+    "add1",
+    "ab8mux",
+    "8pgm_ctr",
+    "cpu",
+    "regs",
+    "5-32",
+    "ctrl"
+  ],
+  "StarredList":[
+    {
+      "Name":"IN/OUT",
+      "IsCollection":true
+    },
+    {
+      "Name":"NAND",
+      "IsCollection":false
+    },
+    {
+      "Name":"not",
+      "IsCollection":false
+    },
+    {
+      "Name":"and",
+      "IsCollection":false
+    },
+    {
+      "Name":"or",
+      "IsCollection":false
+    },
+    {
+      "Name":"xor",
+      "IsCollection":false
+    },
+    {
+      "Name":"half adder",
+      "IsCollection":false
+    },
+    {
+      "Name":"full_adder",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit_adder",
+      "IsCollection":false
+    },
+    {
+      "Name":"SR_latch",
+      "IsCollection":false
+    },
+    {
+      "Name":"D_latch",
+      "IsCollection":false
+    },
+    {
+      "Name":"JK_flip",
+      "IsCollection":false
+    },
+    {
+      "Name":"4_bitreg",
+      "IsCollection":false
+    },
+    {
+      "Name":"alu",
+      "IsCollection":false
+    },
+    {
+      "Name":"3-STATE BUFFER",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit_tristate",
+      "IsCollection":false
+    },
+    {
+      "Name":"comp jk",
+      "IsCollection":false
+    },
+    {
+      "Name":"4binPC",
+      "IsCollection":false
+    },
+    {
+      "Name":"16decodePC",
+      "IsCollection":false
+    },
+    {
+      "Name":"4bit_and",
+      "IsCollection":false
+    },
+    {
+      "Name":"Demux",
+      "IsCollection":false
+    },
+    {
+      "Name":"7seg",
+      "IsCollection":false
+    },
+    {
+      "Name":"1-8BIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"8-1BIT",
+      "IsCollection":false
+    },
+    {
+      "Name":"8add",
+      "IsCollection":false
+    },
+    {
+      "Name":"8xor",
+      "IsCollection":false
+    },
+    {
+      "Name":"8and",
+      "IsCollection":false
+    },
+    {
+      "Name":"8not",
+      "IsCollection":false
+    },
+    {
+      "Name":"8or",
+      "IsCollection":false
+    },
+    {
+      "Name":"BUS-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"8alu",
+      "IsCollection":false
+    },
+    {
+      "Name":"8tri",
+      "IsCollection":false
+    },
+    {
+      "Name":"8reg",
+      "IsCollection":false
+    },
+    {
+      "Name":"add1",
+      "IsCollection":false
+    },
+    {
+      "Name":"ab8mux",
+      "IsCollection":false
+    },
+    {
+      "Name":"8pgm_ctr",
+      "IsCollection":false
+    },
+    {
+      "Name":"cpu",
+      "IsCollection":false
+    },
+    {
+      "Name":"regs",
+      "IsCollection":false
+    },
+    {
+      "Name":"5-32",
+      "IsCollection":false
+    },
+    {
+      "Name":"ctrl",
+      "IsCollection":false
+    }
+  ],
+  "ChipCollections":[
+    {
+      "Chips":["NAND","CLOCK","PULSE","KEY","3-STATE BUFFER"],
+      "IsToggledOpen":true,
+      "Name":"BASIC"
+    },
+    {
+      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8"],
+      "IsToggledOpen":false,
+      "Name":"IN/OUT"
+    },
+    {
+      "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
+      "IsToggledOpen":true,
+      "Name":"MERGE/SPLIT"
+    },
+    {
+      "Chips":["BUS-1","BUS-4","BUS-8"],
+      "IsToggledOpen":true,
+      "Name":"BUS"
+    },
+    {
+      "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY","LED"],
+      "IsToggledOpen":false,
+      "Name":"DISPLAY"
+    },
+    {
+      "Chips":["ROM 256×16"],
+      "IsToggledOpen":false,
+      "Name":"MEMORY"
+    },
+    {
+      "Chips":["BUZZER","not","and","or","xor","half adder","full_adder","4bit_adder","SR_latch","D_latch","JK_flip","4_bitreg","1B_clk_Reg","4_bitClkreg","alu","4bit_tristate","comp jk","4binPC","16decodePC","4bit_and","Demux","7seg","8add","8xor","8and","8not","8or"],
+      "IsToggledOpen":false,
+      "Name":"OTHER"
+    }
+  ]
+}
